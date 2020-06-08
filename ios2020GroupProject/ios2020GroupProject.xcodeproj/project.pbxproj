@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		55D84728248A696B0026280E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D84727248A696B0026280E /* AppDelegate.swift */; };
-		55D8472A248A696B0026280E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D84729248A696B0026280E /* SceneDelegate.swift */; };
 		55D8472C248A696B0026280E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D8472B248A696B0026280E /* ViewController.swift */; };
 		55D8472F248A696B0026280E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55D8472D248A696B0026280E /* Main.storyboard */; };
 		55D84731248A696E0026280E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55D84730248A696E0026280E /* Assets.xcassets */; };
@@ -18,7 +17,6 @@
 /* Begin PBXFileReference section */
 		55D84724248A696A0026280E /* ios2020GroupProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios2020GroupProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55D84727248A696B0026280E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		55D84729248A696B0026280E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		55D8472B248A696B0026280E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		55D8472E248A696B0026280E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		55D84730248A696E0026280E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,15 +54,22 @@
 		55D84726248A696A0026280E /* ios2020GroupProject */ = {
 			isa = PBXGroup;
 			children = (
+				7F46077E248EB15B00D2FFF5 /* Resources */,
 				55D84727248A696B0026280E /* AppDelegate.swift */,
-				55D84729248A696B0026280E /* SceneDelegate.swift */,
 				55D8472B248A696B0026280E /* ViewController.swift */,
 				55D8472D248A696B0026280E /* Main.storyboard */,
-				55D84730248A696E0026280E /* Assets.xcassets */,
 				55D84732248A696E0026280E /* LaunchScreen.storyboard */,
 				55D84735248A696E0026280E /* Info.plist */,
 			);
 			path = ios2020GroupProject;
+			sourceTree = "<group>";
+		};
+		7F46077E248EB15B00D2FFF5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				55D84730248A696E0026280E /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +145,6 @@
 			files = (
 				55D8472C248A696B0026280E /* ViewController.swift in Sources */,
 				55D84728248A696B0026280E /* AppDelegate.swift in Sources */,
-				55D8472A248A696B0026280E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +290,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ios2020GroupProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +308,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ios2020GroupProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
