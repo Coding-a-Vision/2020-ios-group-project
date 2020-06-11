@@ -3,29 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		55D84728248A696B0026280E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D84727248A696B0026280E /* AppDelegate.swift */; };
+		55D8472A248A696B0026280E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D84729248A696B0026280E /* SceneDelegate.swift */; };
 		55D8472C248A696B0026280E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D8472B248A696B0026280E /* ViewController.swift */; };
 		55D8472F248A696B0026280E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55D8472D248A696B0026280E /* Main.storyboard */; };
 		55D84731248A696E0026280E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55D84730248A696E0026280E /* Assets.xcassets */; };
 		55D84734248A696E0026280E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55D84732248A696E0026280E /* LaunchScreen.storyboard */; };
-		9E3A3938063B9ED7E2D7A71D /* Pods_ios2020GroupProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B566E9A145E1C78D360B4036 /* Pods_ios2020GroupProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		43CCAD011F07EFD62B98F223 /* Pods-ios2020GroupProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios2020GroupProject.release.xcconfig"; path = "Target Support Files/Pods-ios2020GroupProject/Pods-ios2020GroupProject.release.xcconfig"; sourceTree = "<group>"; };
 		55D84724248A696A0026280E /* ios2020GroupProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios2020GroupProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55D84727248A696B0026280E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55D84729248A696B0026280E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		55D8472B248A696B0026280E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		55D8472E248A696B0026280E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		55D84730248A696E0026280E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55D84733248A696E0026280E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55D84735248A696E0026280E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B566E9A145E1C78D360B4036 /* Pods_ios2020GroupProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios2020GroupProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BDC90C53C0E1BFC237BB4E84 /* Pods-ios2020GroupProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios2020GroupProject.debug.xcconfig"; path = "Target Support Files/Pods-ios2020GroupProject/Pods-ios2020GroupProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,37 +31,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E3A3938063B9ED7E2D7A71D /* Pods_ios2020GroupProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		305FA8882F510FF465906805 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B566E9A145E1C78D360B4036 /* Pods_ios2020GroupProject.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		3FF892ADB23CC8719E59DAA4 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BDC90C53C0E1BFC237BB4E84 /* Pods-ios2020GroupProject.debug.xcconfig */,
-				43CCAD011F07EFD62B98F223 /* Pods-ios2020GroupProject.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		55D8471B248A696A0026280E = {
 			isa = PBXGroup;
 			children = (
 				55D84726248A696A0026280E /* ios2020GroupProject */,
 				55D84725248A696A0026280E /* Products */,
-				3FF892ADB23CC8719E59DAA4 /* Pods */,
-				305FA8882F510FF465906805 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,22 +56,15 @@
 		55D84726248A696A0026280E /* ios2020GroupProject */ = {
 			isa = PBXGroup;
 			children = (
-				7F46077E248EB15B00D2FFF5 /* Resources */,
 				55D84727248A696B0026280E /* AppDelegate.swift */,
+				55D84729248A696B0026280E /* SceneDelegate.swift */,
 				55D8472B248A696B0026280E /* ViewController.swift */,
 				55D8472D248A696B0026280E /* Main.storyboard */,
+				55D84730248A696E0026280E /* Assets.xcassets */,
 				55D84732248A696E0026280E /* LaunchScreen.storyboard */,
 				55D84735248A696E0026280E /* Info.plist */,
 			);
 			path = ios2020GroupProject;
-			sourceTree = "<group>";
-		};
-		7F46077E248EB15B00D2FFF5 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				55D84730248A696E0026280E /* Assets.xcassets */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,12 +74,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55D84738248A696E0026280E /* Build configuration list for PBXNativeTarget "ios2020GroupProject" */;
 			buildPhases = (
-				E75C1E9EF98C0B49BFF83B6F /* [CP] Check Pods Manifest.lock */,
 				55D84720248A696A0026280E /* Sources */,
 				55D84721248A696A0026280E /* Frameworks */,
 				55D84722248A696A0026280E /* Resources */,
-				34888A4A7A3A222EEFEFCC46 /* [CP] Embed Pods Frameworks */,
-				FA3015BE249101FD008CE848 /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -165,66 +133,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		34888A4A7A3A222EEFEFCC46 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ios2020GroupProject/Pods-ios2020GroupProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ios2020GroupProject/Pods-ios2020GroupProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ios2020GroupProject/Pods-ios2020GroupProject-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E75C1E9EF98C0B49BFF83B6F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ios2020GroupProject-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FA3015BE249101FD008CE848 /* SwiftLint */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = SwiftLint;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		55D84720248A696A0026280E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -232,6 +140,7 @@
 			files = (
 				55D8472C248A696B0026280E /* ViewController.swift in Sources */,
 				55D84728248A696B0026280E /* AppDelegate.swift in Sources */,
+				55D8472A248A696B0026280E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,12 +282,10 @@
 		};
 		55D84739248A696E0026280E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BDC90C53C0E1BFC237BB4E84 /* Pods-ios2020GroupProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ios2020GroupProject/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -392,12 +299,10 @@
 		};
 		55D8473A248A696E0026280E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43CCAD011F07EFD62B98F223 /* Pods-ios2020GroupProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ios2020GroupProject/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

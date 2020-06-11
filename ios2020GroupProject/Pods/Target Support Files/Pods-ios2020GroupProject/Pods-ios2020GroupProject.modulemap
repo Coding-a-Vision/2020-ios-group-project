@@ -1,6 +1,0 @@
-framework module Pods_ios2020GroupProject {
-  umbrella header "Pods-ios2020GroupProject-umbrella.h"
-
-  export *
-  module * { export * }
-}
